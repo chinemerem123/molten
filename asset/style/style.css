@@ -145,6 +145,9 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  #works .slide-box {
+    width: 500%;
+  }
   #do {
     padding: 20px;
   }
