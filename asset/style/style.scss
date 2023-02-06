@@ -61,12 +61,22 @@ body{
         font-weight: bolder;
     }
 
+    #brand-1{
+        width: 550px;
+        height: 552px;
+    }
+
 }
 
 @media screen and (max-width:800px){
 .body{
     .heading{
         font-size: 30px;
+    }
+
+    #brand-1{
+        width:250px;
+        height: 252px;
     }
 }
 
