@@ -93,6 +93,7 @@ body {
   }
   #do .h2 {
     font-size: 20px;
+    margin-top: 20px;
   }
   #do .line {
     width: 40px;
