@@ -12,6 +12,18 @@ body{
     overflow-x: hidden;
 }
 
+@mixin sub-head{
+    .h2{
+        font-weight: bolder;
+    }
+    .line{
+        width:80px;
+        height: 4px;
+        background-color: #3B23E6;
+        border-radius: 20px;
+    }
+}
+
 
 .shape{
     width: 100%;
@@ -74,15 +86,59 @@ body{
         width: 550px;
         height: 552px;
     }
-    .h2{
-        font-weight: bolder;
+   @include sub-head();
+}
+
+#works{
+    background-color: #F8F8FF;
+    width: 100%;
+    overflow: hidden;
+@include sub-head();
+.line{
+    position: relative;
+    left:calc(50% - 40px);
+   
+}
+
+.boxx{
+    width: 100%;
+    overflow-x: auto;
+}
+.slide-box{
+ width: 300%;
+ gap: 20px;
+
+ .card{
+    border: none;
+    width: 380px;
+    position: relative;
+
+
+    .num{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: #FFCA43;
+        border-radius:38% 62% 60% 40% / 48% 45% 55% 52%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color:#fff;
+        left:calc(50% - -130px);
+        p{
+            margin-top: 13px;
+        }
     }
-    .line{
-        width:80px;
-        height: 4px;
-        background-color: #3B23E6;
-        border-radius: 20px;
+    .h6{
+        font-weight: bold;
     }
+
+    .card-text{
+        font-size: 13px;
+    }
+ }
+}
 }
 
 @media screen and (max-width:800px){
@@ -120,3 +176,6 @@ section{
     padding: 20px;
 }
 }
+
+
+
