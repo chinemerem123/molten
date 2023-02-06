@@ -160,6 +160,10 @@ body{
     #works{
         .slide-box{
             width: 640%;
+
+            .card{
+                transform: scale(0.9);
+            }
         }
     }
 

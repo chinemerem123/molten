@@ -148,6 +148,9 @@ body {
   #works .slide-box {
     width: 640%;
   }
+  #works .slide-box .card {
+    transform: scale(0.9);
+  }
   #do {
     padding: 20px;
   }
