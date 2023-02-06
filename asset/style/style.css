@@ -62,7 +62,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .body .heading {
-    font-size: 25px;
+    font-size: 35px;
   }
   section {
     padding: 20px;
