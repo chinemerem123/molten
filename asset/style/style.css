@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +8,7 @@
 body {
   width: 100w;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .shape {
@@ -17,4 +18,50 @@ body {
   background-image: url("/asset/img/brands/Group 104.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(248, 248, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.btn-start {
+  padding: 7px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  width: 150px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn-start2 {
+  padding: 9px;
+  background-color: #3B23E6;
+  border-radius: 50px;
+  width: 150px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  margin-top: 40px;
+  box-shadow: 10px 10px 30px rgba(59, 35, 230, 0.3);
+}
+
+.body {
+  position: relative;
+}
+.body .heading {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 800px) {
+  .body .heading {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
