@@ -82,6 +82,9 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  #do {
+    padding: 20px;
+  }
   #do img {
     width: 250px;
     height: 252px;
