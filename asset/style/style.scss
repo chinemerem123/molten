@@ -68,6 +68,23 @@ body{
 
 }
 
+#do{
+    position: relative;
+    img{
+        width: 550px;
+        height: 552px;
+    }
+    .h2{
+        font-weight: bolder;
+    }
+    .line{
+        width:80px;
+        height: 4px;
+        background-color: #3B23E6;
+        border-radius: 20px;
+    }
+}
+
 @media screen and (max-width:800px){
 .body{
     .heading{

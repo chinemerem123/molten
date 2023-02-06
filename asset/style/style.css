@@ -64,6 +64,23 @@ body {
   height: 552px;
 }
 
+#do {
+  position: relative;
+}
+#do img {
+  width: 550px;
+  height: 552px;
+}
+#do .h2 {
+  font-weight: bolder;
+}
+#do .line {
+  width: 80px;
+  height: 4px;
+  background-color: #3B23E6;
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 800px) {
   .body .heading {
     font-size: 30px;
