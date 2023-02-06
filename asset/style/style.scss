@@ -86,6 +86,20 @@ body{
 }
 
 @media screen and (max-width:800px){
+    #do{
+        img{
+            width:250px;
+            height: 252px;
+            position: relative;
+            left:calc(50% - 125px);
+        }
+        .h2{
+            font-size: 20px;
+        }
+        .line{
+            width: 40px;
+        }
+    }
 .body{
     .heading{
         font-size: 30px;
