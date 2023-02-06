@@ -103,9 +103,23 @@ body{
 .boxx{
     width: 100%;
     overflow-x: auto;
+    position: relative;
+   
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+
+
+.boxx::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+   background-color: #e9e9ff;
+   height: 5px;
 }
 .slide-box{
- width: 300%;
+ width: 185%;
  gap: 20px;
 
  .card{
