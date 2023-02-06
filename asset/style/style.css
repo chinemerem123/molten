@@ -82,9 +82,6 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  * {
-    overflow-x: hidden;
-  }
   #do {
     padding: 20px;
   }
