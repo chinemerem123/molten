@@ -1,1 +1,20 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100w;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.shape {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("/asset/img/brands/Group 104.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
