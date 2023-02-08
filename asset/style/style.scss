@@ -339,7 +339,7 @@ img{
         border-radius: 15px;
         overflow: hidden;
 
-        .from{
+        .form{
             width: 80%;
             position: relative;
             left:calc(50% - 40%);
@@ -350,18 +350,20 @@ img{
                 padding: 10px;
                 border-radius: 5px;
                 border: none;
-                margin-left: -20px;
+                position: relative;
+                left:calc(50% - 40%);
             }
             button{
                 width: 80%;
                 padding: 10px;
                 border-radius: 5px;
                 border: none;
-                margin-left: -10px;
                 background-color: #18A0FB;
                 font-weight: bold;
                 margin-top: 20px;
                 color: white;
+                position: relative;
+                left:calc(50% - 40%);
             }
         }
 
@@ -391,9 +393,17 @@ img{
 
     #contact{
         .card{
-            .native{
-                
-                    display: none;
+           
+                .form{
+                  
+                    input{
+                        width: 100%;
+                        left:calc(50% - 50%);
+                    }
+                    button{
+                        width: 100%;
+                        left:calc(50% - 50%);
+                    }
                 }
             
         }

@@ -335,29 +335,31 @@ body {
   border-radius: 15px;
   overflow: hidden;
 }
-#contact .card .from {
+#contact .card .form {
   width: 80%;
   position: relative;
   left: 10%;
   padding: 10px;
 }
-#contact .card .from input {
+#contact .card .form input {
   width: 80%;
   padding: 10px;
   border-radius: 5px;
   border: none;
-  margin-left: -20px;
+  position: relative;
+  left: 10%;
 }
-#contact .card .from button {
+#contact .card .form button {
   width: 80%;
   padding: 10px;
   border-radius: 5px;
   border: none;
-  margin-left: -10px;
   background-color: #18A0FB;
   font-weight: bold;
   margin-top: 20px;
   color: white;
+  position: relative;
+  left: 10%;
 }
 #contact .card img {
   width: 100%;
@@ -370,8 +372,13 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  #contact .card .native {
-    display: none;
+  #contact .card .form input {
+    width: 100%;
+    left: 0%;
+  }
+  #contact .card .form button {
+    width: 100%;
+    left: 0%;
   }
   #pay img {
     position: relative;
