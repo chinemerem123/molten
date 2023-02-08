@@ -12,3 +12,13 @@
   })
 
   
+let cardTabs=document.querySelectorAll(".card-tab");
+let imgTab=document.querySelector("#tab-img");
+
+cardTabs.forEach((tab)=>{
+  tab.addEventListener("click",()=>{
+    imgTab.src=tab.children[0].value;
+  })
+})
+
+// console.log(tab.children[0].value);

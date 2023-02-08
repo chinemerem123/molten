@@ -21,7 +21,6 @@ body {
 }
 
 .header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -142,6 +141,55 @@ body {
 }
 #works .slide-box .card .card-text {
   font-size: 13px;
+}
+
+.get {
+  position: relative;
+}
+.get .h2 {
+  font-weight: bolder;
+}
+.get .line {
+  width: 80px;
+  height: 4px;
+  background-color: #3B23E6;
+  border-radius: 20px;
+}
+.get .line {
+  position: relative;
+  left: calc(50% - 40px);
+}
+.get img {
+  width: 668px;
+  height: 501px;
+  position: relative;
+  left: calc(50% - 370px);
+  transition: 0.5s;
+}
+.get .card.active {
+  border-left: 2px solid #3B23E6;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.get .card {
+  border: none;
+  border-left: 2px solid rgb(231, 231, 231);
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.get .card .h5 {
+  transition: 0.5s;
+}
+.get .card:hover {
+  border-left: 2px solid #3B23E6;
+}
+.get .card:hover .h5 {
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 800px) {

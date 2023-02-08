@@ -155,7 +155,49 @@ body{
 }
 }
 
+.get{
+    position: relative;
+    @include sub-head();
+.line{
+    position: relative;
+    left:calc(50% - 40px);
+}
 
+img{
+    width: 668px;
+    height: 501px;
+    position: relative;
+    left: calc(50% - 370px);
+    transition: 0.5s;
+}
+.card.active{
+    border-left:2px solid #3B23E6;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.card{
+    border: none;
+    border-left: 2px solid rgb(231, 231, 231);
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 700;
+    .h5{
+        transition: 0.5s;
+    }
+    &:hover{
+        border-left:2px solid #3B23E6;
+        
+        .h5{
+            font-weight: bolder;
+        }
+    }
+}
+}
 
 
 @media screen and (max-width:800px){
