@@ -194,10 +194,10 @@ body {
 
 @media screen and (max-width: 800px) {
   .get img {
-    width: 300px;
+    width: 350px;
     height: 252px;
     position: relative;
-    left: calc(50% - 150px);
+    left: calc(50% - 175px);
   }
   #works .slide-box {
     width: 640%;
