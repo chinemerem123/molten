@@ -259,6 +259,9 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  #build .card {
+    margin-top: 10px;
+  }
   .get {
     overflow: hidden;
   }
