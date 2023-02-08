@@ -286,7 +286,49 @@ body {
   background-color: #3B23E6;
 }
 
+#pay {
+  position: relative;
+  background-color: #F8F8FF;
+}
+#pay .h2 {
+  font-weight: bolder;
+}
+#pay .line {
+  width: 80px;
+  height: 4px;
+  background-color: #3B23E6;
+  border-radius: 20px;
+}
+#pay .line {
+  position: relative;
+  left: calc(50% - 40px);
+}
+#pay .p-text {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+#pay .p-text-o {
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+}
+#pay img {
+  width: 550px;
+  height: 552px;
+}
+
+.check {
+  font-weight: 600;
+}
+
 @media screen and (max-width: 800px) {
+  #pay img {
+    position: relative;
+    width: 225px;
+    height: 226px;
+    left: calc(50% - 113px);
+  }
   #about img {
     position: relative;
     width: 225px;

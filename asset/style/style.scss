@@ -298,15 +298,54 @@ img{
     }
 }
 
+#pay{
+    position: relative;
+    @include sub-head();
+    background-color: #F8F8FF;
+.line{
+    position: relative;
+    left:calc(50% - 40px)
+}
+.p-text{
+    margin-top: 10px;
+    font-size: 13px;
+    color:gray;
+}
+.p-text-o{
+    margin-top: 20px;
+    font-size: 14px;
+    color:gray;
+}
+
+img{
+    width: 550px;
+        height: 552px; 
+}
+}
+
+.check{
+    font-weight: 600;
+}
+
 
 @media screen and (max-width:800px){
 
+    @mixin img{
+        position: relative;
+        width: 225px;
+        height: 226px;
+        left:calc(50% - 113px);
+    }
+
+    #pay{
+        img{
+            @include img();
+        }
+    }
+
     #about{
         img{
-            position: relative;
-            width: 225px;
-            height: 226px;
-            left:calc(50% - 113px);
+            @include img;
         }
        
     }
