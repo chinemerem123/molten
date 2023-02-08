@@ -193,11 +193,14 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .get {
+    overflow: hidden;
+  }
   .get img {
-    width: 350px;
+    width: 320px;
     height: 252px;
     position: relative;
-    left: calc(50% - 175px);
+    left: calc(50% - 160px);
   }
   #works .slide-box {
     width: 640%;
