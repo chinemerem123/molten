@@ -340,6 +340,12 @@ img{
     #pay{
         img{
             @include img();
+            margin-top: 20px;
+        }
+        .check{
+            .text{
+                font-size: 13px;
+            }
         }
     }
 
