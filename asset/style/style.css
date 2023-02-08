@@ -193,6 +193,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .get img {
+    width: 334px;
+    height: 250px;
+  }
   #works .slide-box {
     width: 640%;
   }
