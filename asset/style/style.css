@@ -196,6 +196,7 @@ body {
   .get img {
     width: 334px;
     height: 250px;
+    left: calc(50% - 122px);
   }
   #works .slide-box {
     width: 640%;
