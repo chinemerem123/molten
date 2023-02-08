@@ -393,6 +393,12 @@ img{
 
     #contact{
         .card{
+            .h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+            }
            
                 .form{
                   width: 100%;
@@ -400,6 +406,7 @@ img{
                     input{
                         width: 100%;
                         left:calc(50% - 50%);
+                        font-size: 13px;
                     }
                     button{
                         width: 100%;
