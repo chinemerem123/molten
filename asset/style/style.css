@@ -408,6 +408,24 @@ body {
   border: none;
 }
 
+@media screen and (max-width: 991px) {
+  .shape {
+    display: none;
+  }
+  #home {
+    height: 100%;
+  }
+  #home #brand-1 {
+    position: relative;
+    width: 450px;
+  }
+  .body .heading {
+    font-size: 40px;
+  }
+  .body .btn-start2 {
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 800px) {
   .shape {
     height: 670px;

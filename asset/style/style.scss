@@ -415,6 +415,34 @@ img{
 }
 }
 
+@media screen and (max-width:991px){
+    .shape{
+        display: none;
+    }
+    #home{
+        height: 100%;
+        #brand-1{
+position: relative;
+width: 450px;
+        }
+    }
+    .body{
+        .heading{
+            font-size: 40px;
+        }
+        .btn-start2{
+            margin-top: 10px;
+        }
+    }
+
+    #works{
+        
+    }
+   
+}
+
+
+
 
 @media screen and (max-width:800px){
 
