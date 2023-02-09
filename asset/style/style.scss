@@ -436,8 +436,18 @@ width: 450px;
     }
 
     #works{
-        
+        margin-top: 25px;
+
+        .slide-box{
+            width: 300%;
+        }
     }
+
+  #build{
+    .card{
+        margin-top: 15px;
+    }
+  }
    
 }
 

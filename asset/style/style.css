@@ -425,6 +425,15 @@ body {
   .body .btn-start2 {
     margin-top: 10px;
   }
+  #works {
+    margin-top: 25px;
+  }
+  #works .slide-box {
+    width: 300%;
+  }
+  #build .card {
+    margin-top: 15px;
+  }
 }
 @media screen and (max-width: 800px) {
   .shape {
