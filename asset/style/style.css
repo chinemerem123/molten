@@ -434,6 +434,9 @@ body {
   #build .card {
     margin-top: 15px;
   }
+  .sec8 {
+    margin-top: 200px;
+  }
 }
 @media screen and (max-width: 800px) {
   .shape {
