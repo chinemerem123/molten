@@ -371,6 +371,35 @@ body {
   margin-top: 5px;
 }
 
+#faqs {
+  margin-top: 30px;
+  position: relative;
+}
+#faqs .h2 {
+  font-weight: bolder;
+}
+#faqs .line {
+  width: 80px;
+  height: 4px;
+  background-color: #3B23E6;
+  border-radius: 20px;
+}
+#faqs .line {
+  position: relative;
+  left: calc(50% - 40px);
+}
+#faqs .h6 {
+  color: gray;
+}
+#faqs .accordion-item {
+  background-color: #F8F8FF;
+  border-bottom: none;
+}
+#faqs .accordion-item .accordion-header {
+  background-color: #F8F8FF;
+  border: none;
+}
+
 @media screen and (max-width: 800px) {
   #contact .card .h2 {
     font-size: 20px;

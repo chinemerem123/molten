@@ -381,6 +381,31 @@ img{
 
 }
 
+#faqs{
+    margin-top: 30px;
+    position: relative;
+    @include sub-head();
+.line{
+    position: relative;
+    left:calc(50% - 40px)
+}
+.h6{
+    color:gray;
+}
+
+
+
+.accordion-item{
+    background-color:#F8F8FF;
+    border-bottom: none;
+
+    .accordion-header{
+        background-color: #F8F8FF;
+        border: none;
+    }
+}
+}
+
 
 @media screen and (max-width:800px){
 
