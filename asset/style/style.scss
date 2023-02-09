@@ -418,6 +418,10 @@ img{
 
 @media screen and (max-width:800px){
 
+    .shape{
+        height: 580px;
+    }
+
     @mixin img{
         position: relative;
         width: 225px;

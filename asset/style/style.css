@@ -409,6 +409,9 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .shape {
+    height: 580px;
+  }
   #contact .card .h2 {
     font-size: 20px;
   }
