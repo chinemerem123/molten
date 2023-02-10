@@ -435,6 +435,16 @@ img{
     }
 }
 
+.col-form-label{
+    font-size:13px;
+    font-weight: 700;
+    color:rgb(170, 170, 170);
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
 @media screen and (max-width:991px){
     .shape{
         display: none;
