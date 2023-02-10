@@ -418,6 +418,21 @@ img{
 .footer{
     width:100%;
     background-color: #3B23E6;
+
+    .foot-text{
+        font-size: 13px;
+    margin-top: 5px;
+
+    }
+
+    .foot-link{
+        a{
+            font-size: 13px;
+            color:#fff;
+            text-decoration: none;
+        }
+      
+    }
 }
 
 @media screen and (max-width:991px){

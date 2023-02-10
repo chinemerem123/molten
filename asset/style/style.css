@@ -412,6 +412,15 @@ body {
   width: 100%;
   background-color: #3B23E6;
 }
+.footer .foot-text {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.footer .foot-link a {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 991px) {
   .shape {
