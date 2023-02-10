@@ -546,6 +546,23 @@ width: 450px;
 
 @media screen and (max-width:800px){
 
+    .bud{
+        label{
+            width: 100%;
+            margin-top: 10px;
+            text-align: start;
+
+            span{
+                margin-left: 55px;
+            }
+
+            &::before{
+                margin-left: 0;
+                left:30px;
+            }
+        }
+    }
+
     .shape{
         height: 670px;
     }
