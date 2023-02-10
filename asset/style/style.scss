@@ -419,6 +419,12 @@ img{
     width:100%;
     background-color: #3B23E6;
 
+    .social{
+        a{
+            color:white;
+        }
+    }
+
     .foot-text{
         font-size: 13px;
     margin-top: 5px;
@@ -445,6 +451,56 @@ img{
     border-bottom: none;
 }
 
+.bud{
+    width: 100%;
+    input[type="radio"]{
+        display: none;
+
+       
+    }
+    label{
+        transition: 0.5s;
+        text-align: center;
+        position: relative;
+        color: #3B23E6;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        padding:15px;
+     background-color: #fff;
+     box-shadow: 5px 5px 10px rgba(110, 110, 110, 0.1);
+     width: 20%;
+     font-size: 13px;
+span{
+    margin-top: 7px;
+    font-weight: 600;
+    color: gray;
+    margin-left: 20px;
+}
+
+&::before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #3B23E6;
+    margin-left: -10px;
+}
+    }
+
+    input[type="radio"]:checked + label{
+background-color: #3B23E6;
+span{
+    color: #fff;
+}
+&::before{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+    }
+}
 @media screen and (max-width:991px){
     .shape{
         display: none;
