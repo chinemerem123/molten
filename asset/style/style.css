@@ -314,7 +314,7 @@ body {
 #pay .p-text {
   margin-top: 10px;
   font-size: 13px;
-  color: gray;
+  color: rgb(44, 44, 44);
 }
 #pay .p-text-o {
   margin-top: 20px;
