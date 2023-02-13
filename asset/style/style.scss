@@ -130,15 +130,15 @@ body{
 }
 
 ::-webkit-scrollbar{
-    width: 12px;
+    width: 5px;
 }
 
 
 
 .boxx::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-   background-color: #e9e9ff;
-   height: 5px;
+    border-radius: 20px;
+   background-color: rgba(33, 33, 167,0.1);
+ 
 }
 .slide-box{
  width: 185%;

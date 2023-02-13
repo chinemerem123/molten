@@ -124,12 +124,11 @@ body {
   position: relative;
 }
 #works ::-webkit-scrollbar {
-  width: 12px;
+  width: 5px;
 }
 #works .boxx::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: #e9e9ff;
-  height: 5px;
+  border-radius: 20px;
+  background-color: rgba(33, 33, 167, 0.1);
 }
 #works .slide-box {
   width: 185%;
