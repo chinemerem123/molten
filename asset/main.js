@@ -22,3 +22,4 @@ cardTabs.forEach((tab)=>{
 })
 
 // console.log(tab.children[0].value);
+
