@@ -541,37 +541,38 @@ width: 450px;
    
 }
 
-.slider-item1{
+@mixin slide-item{
     height: 500px;
     position: relative;
-   background-image: url("/asset/img/brands/bg1.png");
-   background-position: center;
-   background-size: cover;
-   overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 
-   #vilo-img{
-    height: 700px;
-    top:-80px;
-    right: 50px;
-    position: absolute;
-}
-
-.vilo-logo{
-    img{
-        width: 30px;
-        height: 30px;
+    #vilo-img{
+        height: 700px;
+        top:-80px;
+        right: 50px;
+        position: absolute;
     }
-
+    
+    .vilo-logo{
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    
+    }
 }
+
+.slider-item1{
+    background-image: url("/asset/img/brands/bg1.png");
+    @include slide-item();
+    
 }
 
 .slider-item2{
-    height: 500px;
-    position: relative;
    background-image: url("/asset/img/brands/bg2.png");
-   background-position: center;
-   background-size: cover;
-   overflow: hidden;
+   @include slide-item();
 }
 
 @media screen and (max-width:800px){

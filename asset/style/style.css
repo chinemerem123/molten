@@ -512,9 +512,9 @@ body {
   }
 }
 .slider-item1 {
+  background-image: url("/asset/img/brands/bg1.png");
   height: 500px;
   position: relative;
-  background-image: url("/asset/img/brands/bg1.png");
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -531,12 +531,22 @@ body {
 }
 
 .slider-item2 {
+  background-image: url("/asset/img/brands/bg2.png");
   height: 500px;
   position: relative;
-  background-image: url("/asset/img/brands/bg2.png");
   background-position: center;
   background-size: cover;
   overflow: hidden;
+}
+.slider-item2 #vilo-img {
+  height: 700px;
+  top: -80px;
+  right: 50px;
+  position: absolute;
+}
+.slider-item2 .vilo-logo img {
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (max-width: 800px) {
